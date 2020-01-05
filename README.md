@@ -1,4 +1,4 @@
-# Useful-Firefox-Bookmarklets
+# Useful-Bookmarklets
 Some bookmarklets I've written and found over the years. Tested on Firefox and Chrome. Should work with a few exceptions noted below.
 
 ## Installation
