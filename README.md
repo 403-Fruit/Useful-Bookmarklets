@@ -44,6 +44,9 @@ Toggles text visibility of password forms on current page.
 
 Opens Google Translated version of current page.
 
+### /r/videos to playlist
+Generates a youtube playlist with the current top 50 posts on reddit /r/videos.
+
 ### Reddit Undelete
 
 Opens a new window with ceddit and removeddit versions of current Reddit thread.  
