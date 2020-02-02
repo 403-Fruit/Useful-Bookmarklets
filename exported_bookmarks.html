@@ -20,6 +20,7 @@
             <DT><A HREF="javascript:var l=window.location.href;window.location.href=%22https://www.remove%22+l.slice(l.indexOf(%22ddit.com%22));" ADD_DATE="1567663013" LAST_MODIFIED="1578201884">removeddit</A>
             <DT><A HREF="javascript:var l=window.location.href;window.location.href=%22https://www.ce%22+l.slice(l.indexOf(%22ddit.com%22));" ADD_DATE="1557736028" LAST_MODIFIED="1578201886">ceddit</A>
             <DT><A HREF="javascript:var l=window.location.href;window.location.href=%22https://www.google.com/searchbyimage?btnG=Search+by+image&encoded_image=&image_content=&filename=&hl=en&image_url=%22+encodeURIComponent(l);" ADD_DATE="1562050106" LAST_MODIFIED="1578202459">Reverse Image (Google)</A>
+            <DT><A HREF="javascript:fetch(%22https://www.reddit.com/r/videos/.json%22).then(t=>t.json()).then(t=>{fetch(%22https://www.reddit.com/r/videos/.json?after=%22+t.data.after).then(t=>t.json()).then(e=>{for(var o=[...t.data.children,...e.data.children],a=[],h=0;h<o.length;h++){var r=o[h].data.url.replace(%22&amp;%22,%22&%22);if(r.match(/(?:[^m]\.|[^\.])(youtube\.com|youtu\.be)/g)){var d=r.match(/(?:https?:\/{2})?(?:w{3}\.)?(?:youtu)(?:be)?(?:\.com|\.be)(?:\/watch\?v=|\/)([^\s&\?]+)/)[1];a.push(d)}}location.href=%22http://www.youtube.com/watch_videos?title=%2fr%2fvideos%20Top%2050&video_ids=%22+a.toString()})});" ADD_DATE="1557736028" LAST_MODIFIED="1578201886">/r/videos to playlist</A>
         </DL><p>
     </DL><p>
 </DL>
